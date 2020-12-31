@@ -1,7 +1,7 @@
 class Listing < ActiveRecord::Base
 
-  #main entity
   belongs_to :director
-  has_many :actors, through: :director
+  has_many :submissions
+  has_many :actors, through: :submissions
 
 end

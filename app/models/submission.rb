@@ -1,7 +1,7 @@
 class Submission < ActiveRecord::Base
 
-  #joins table
   belongs_to :actor
   belongs_to :listing
+  #belongs_to :director, through: :listing
 
 end

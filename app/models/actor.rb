@@ -1,7 +1,6 @@
 class Actor < ActiveRecord::Base
 
-  #general user
   has_many :submissions
-  belongs_to :director, through: :listing
-
+  belongs_to :listing, through: :submissions
+  #belongs_to :director, through: :listing
 end

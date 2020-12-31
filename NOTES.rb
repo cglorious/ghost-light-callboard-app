@@ -29,7 +29,7 @@
 #           View a job
 #         - User should be able to:
 #             - Director: Input job details to a job
-#             - Actor: View a job and submit to apply
+#             - Actor: View a job
 #         - What does your app do?
 #           App allows Directors to post jobs on callboard, and view which Actors have applied to jobs.
 #           App allows Actors to view jobs on callboard, and submit to jobs.
